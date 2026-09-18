@@ -1,0 +1,215 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Navigation */
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  background: #333;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav ul li a {
+  display: block;
+  color: white;
+  padding: 15px 25px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background: #555;
+}
+
+/* Banner */
+
+.banner {
+  position: relative;
+}
+
+.banner img {
+  width: 100%;
+  display: block;
+}
+
+.hover-text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  text-align: center;
+  padding: 10px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.banner:hover .hover-text {
+  opacity: 1;
+}
+
+/* Headings */
+
+h1 {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+/* Paragraph */
+
+.p1 {
+  text-align: center;
+  padding: 0 5% 5%;
+}
+
+/* Profile */
+
+.profile-image {
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: auto;
+}
+
+/* Projects */
+
+.projects-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.project {
+  width: 45%;
+}
+
+.project-image {
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: auto;
+}
+
+.project-title {
+  text-align: center;
+  color: rgb(35, 35, 73);
+  font-size: 30px;
+  font-weight: bold;
+}
+
+/* Gallery */
+
+.gallery {
+  display: grid;
+  grid-template-columns:
+    repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+  padding: 20px;
+}
+
+.gallery img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+/* Contact */
+
+.contact {
+  text-align: center;
+  color: blue;
+  padding-bottom: 5%;
+}
+
+/* Signup */
+
+#signup {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+#signup input {
+  padding: 10px;
+  width: 250px;
+}
+
+#signup button {
+  padding: 10px;
+  margin-left: 5px;
+}
+
+/* Footer */
+
+.footer {
+  width: 100%;
+  margin-top: 40px;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  background-color: #333;
+  color: white;
+  padding: 40px 20px;
+}
+
+.footer-section {
+  width: 30%;
+  text-align: center;
+}
+
+.footer-section h3 {
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+
+.footer-section p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.footer-section a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  margin: 10px 0;
+}
+
+.footer-section a:hover {
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+.footer-bottom p {
+  margin: 0;
+  font-size: 14px;
+}
