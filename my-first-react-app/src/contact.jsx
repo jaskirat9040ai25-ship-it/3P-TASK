@@ -4,7 +4,7 @@ function Contact() {
       <h1>Contact</h1>
 
       <p className="contact">
-        E-mail : jaskirat9040.ai25@chitkara.edu.in
+        E-mail: jaskirat9040.ai25@chitkara.edu.in
       </p>
     </section>
   );

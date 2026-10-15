@@ -19,7 +19,7 @@ function Article() {
   ];
 
   return (
-    <section id="work">
+    <section id="articles">
       <h2>My Articles</h2>
 
       <div className="projects-container">

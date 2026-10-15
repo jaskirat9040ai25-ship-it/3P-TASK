@@ -6,11 +6,7 @@ import Gallery from "./gallery";
 import Contact from "./contact";
 import Subscribe from "./subscribe";
 import Footer from "./footer";
-import StudentList from "./studentlist";
-import OrderStatus from "./order";
-import SaveButton from "./saveex";
-import ContactForm from "./formex";
-import Counter from "./usestate";
+import FeaturedTutorials from "./tutorial";
 import "./App.css";
 
 
@@ -21,6 +17,7 @@ function App() {
       <Banner />
       <About />
       <Article />
+      <FeaturedTutorials/>
       <Gallery />
       <Contact />
       <Subscribe />
